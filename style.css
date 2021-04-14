@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    width: 30vw;
+    height: 30vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+}
+
+h1 {
+    margin-left: 43vw;
+    margin-top: -28vw;
+    font-size: 9.5vw;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 100%
+}
+
+.hintergrund {
+    width: 100%;
+    height: 60vw;
+    background-color: #3d3943;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-size: 100%;
+}
+
+button {
+    margin-left: 43.4vw;
+    margin-top: 2vw;
+
+    width: 13vw;
+    height: 5vw;
+    font-size: 3vw;
+    font-weight: 200;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 100%;
+
+    background-color: #3d3943;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+
+    border: 1px solid white;
+    border-radius: 1vw;
+
+    transition: all 250ms ease;
+
+
+
+}
+
+button:hover {
+    box-shadow: inset 0 0 0 0.2vw ;
+}
+
+.instagram {
+    position:absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-top: -4.5vw;
+    margin-left: 76.5vw;
+}
+
+.youtube {
+    position:absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -4.8vw;
+    margin-left: 68.5vw;
+}
+
+.twitch {
+    position:absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: -4.8vw;
+    margin-left: 61vw;
+}
+
+#texthintergrund {
+    margin-top: -10vw;
+    width: 100%;
+    height: 60vw;
+    background-color: #4D4160;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-size: 100%;
+    transform: skewY(-3deg);
+
+}
+
+ h2 {
+    font-size: 4.5vw;
+    position: absolute;
+    margin-top: 3vw;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    transform: skewY(3deg);
+    margin-left: 8vw;
+}
+
+p {
+    font-size: 3vw;
+    margin-top: 16vw;
+    margin-left: 8vw;
+    position: absolute;
+    transform: skewY(3deg);
+    font-weight: 200;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.impressum {
+    width: 100%;
+    height: 8vw;
+}
+
+h4 {
+    margin-top: 1vw;
+    margin-left: 60vw;
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
